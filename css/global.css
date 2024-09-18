@@ -5,7 +5,7 @@
     
     --principal-color: #000000;
     --secondary-color: #503210;
-    --tertiary-color : #000000;
+    --tertiary-color : #ffffff;
     --fourth-color   : #192423;
 
     /*Fuentes */
@@ -20,6 +20,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
 }
 
 body{
