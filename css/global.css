@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root{
+     /*Colores */
+    
+    --principal-color: #000000;
+    --secondary-color: #503210;
+    --tertiary-color : #000000;
+    --fourth-color   : #192423;
+
+    /*Fuentes */
+    --fuente-krona : "Krona One", sans-serif;
+    --fuente-mediana : 2rem;
+    --fuente-grande  : 4rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--fuente-krona);
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+

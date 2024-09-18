@@ -1,0 +1,347 @@
+body {
+    background-image: url("../images/purty_wood.webp");
+}
+
+/* Contiene a las listas del menú de navegación */
+.nav__contenedor {
+    display: flex;
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    transition: all 1s ease;
+}
+
+.nav__contenedor.open {
+    top: 0;
+}
+
+/* Contiene a los enlaces */
+.nav__lista {
+    padding: 0.7rem;
+    gap: 1rem;
+    display: flex; /* Asegura que los enlaces estén en fila */
+}
+
+/* Enlace en específico */
+.nav__lista a {
+    transition: all 0.5s ease;
+    color: var(--principal-color);
+}
+
+.nav__lista a:hover {
+    color: var(--secondary-color);
+}
+
+/* Contiene el icono del menú */
+.nav div {
+    position: absolute;
+    right: 0;
+}
+
+/* Menú del icono */
+#menu-icon {
+    padding-right: 1rem;
+    font-size: var(--fuente-mediana);
+    cursor: pointer;
+    color: var(--principal-color);
+}
+
+/* Redes */
+.social-icon {
+    font-size: var(--fuente-mediana);
+}
+
+.linkedin {
+    color: var(--secondary-color);
+}
+
+/* Sección Sobre mí */
+.datos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
+    text-align: start;
+    color: var(--principal-color);
+    line-height: 1.5rem;
+}
+
+.datos__informacion {
+    order: 2;
+}
+
+.datos__titulo {
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.datos__descripcion {
+    margin-bottom: 1rem;
+}
+
+.datos__titulo span {
+    color: var(--secondary-color);
+}
+
+.datos__tecnologias {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.datos__tecnologias--logos {
+    text-align: center;
+}
+
+.datos__tecnologias--logos img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.perfil__contenedor img {
+    width: 100%;
+    height: 350px;
+}
+
+/* Sección formaciones */
+ .formacion__contenedor {
+    padding: 3rem;
+    color: var(--principal-color);
+    text-align: center;
+}
+
+
+
+
+
+/*Proyectos */
+
+
+/*Galeria*/
+.proyectos__contenedor{
+     
+    padding: 3rem;
+    
+}
+
+.proyectos__titulo{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--principal-color);
+}
+
+.proyectos__galeria {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.proyectos__card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.proyectos__card-img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.5; 
+    transition: opacity 0.5s, transform 0.5s; 
+}
+
+.proyectos__card-img:hover{
+    transform: scale(1.1); 
+    opacity: 0.9; 
+}
+
+.proyectos__card .proyectos__contenido {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0);
+    transition: transform 0.5s, bottom 0.5s;
+}
+
+.proyectos__card:hover .proyectos__contenido {
+    transform: scale(1);
+    bottom: 25px;
+}
+  
+  .proyectos__contenido .proyectos__titulo {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .proyectos__contenido .proyectos__titulo span {
+    font-weight: 300;
+    font-size: 0.70em;
+  }
+  
+  .proyectos__contenido .proyectos__sci {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  
+  .proyectos__sci li {
+    list-style: none;
+  }
+  
+  .proyectos__sci li .fa-brands {
+    width: 14px;
+  }
+  
+  .proyectos__sci li .fa-facebook {
+    width: 10px;
+  }
+  
+  .proyectos__sci li a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  .proyectos__sci li a:hover {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+
+/* contacto*/
+.contacto__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: var(--principal-color);
+    
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contacto__lista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.contacto__lista input, textarea{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    color: var(--principal-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.contacto__lista button{
+    width: 9rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.contacto__lista button:hover{
+    background-color: var(--secondary-color);
+}
+
+
+/*Footer */
+
+.footer__contenedor{
+    padding: 10px 0px 10px 10px;
+}
+
+.footer__copy{
+    color: var(--principal-color);
+}
+
+/* 320px > móviles , 768px > tablets y 1200px > escritorio */
+@media (min-width: 768px) {
+    .datos__contenedor {
+        flex-direction: row;
+    }
+    .datos__informacion {
+        width: 50%;
+    }
+    .perfil__contenedor {
+        order: 2;
+    }
+    .formacion__galeria--card img {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Contenedor del menú */
+    .nav__contenedor {
+        display: flex;
+        justify-content: flex-end; 
+        flex-direction: row;
+        align-items: center;
+        position: static; 
+        top: auto; 
+        height: auto; 
+        background: transparent; 
+    }
+    #menu-icon {
+        display: none;
+    }
+
+    /* Formaciones */
+    .formacion__galeria {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .formacion__galeria--card img {
+        width: 400px;
+    }
+}
