@@ -7,12 +7,14 @@
     --secondary-color: #41ccc0;
     --tertiary-color : #000000;
     --fourth-color   : #192423;
+    --five-color     : #f13e3e;
 
     /*Fuentes */
     --fuente-krona : "Krona One", sans-serif;
     --fuente-mediana : 2rem;
     --fuente-grande  : 4rem;
 }
+
 
 *{
     margin: 0;
