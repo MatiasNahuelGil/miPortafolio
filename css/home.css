@@ -599,6 +599,7 @@ header{
 .contacto__form {
   display: flex;
   flex-direction: column;
+  padding-top : 1rem ;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
