@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Gil Matias, desarrollador frontend. Descubre mis proyectos y contáctame.">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -13,81 +14,99 @@
     <!--Header-->
     <header>
         <nav class="nav">
-           <ul class="nav__contenedor">
-               <li class="nav__lista">
-                     <a href="#about">Sobre mí</a>
-               </li>
-               <li class="nav__lista">
-                <a href="#proyectos">Mis proyectos</a>
-               </li>
-               <li class="nav__lista">
-                     <a href="#formacion">Formaciones</a>
-               </li>
-               
-               <li class="nav__lista">
-                <a href="#contacto">Contacto</a>
-               </li>
-               <li class="nav__lista">
-                 <a href=""><i class='bx bxl-linkedin-square social-icon linkedin' ></i></a>
-                 <a href=""><i class='bx bxl-github social-icon github' ></i></a>
-              </li>
-           </ul>
-           <div>
-                <i  class="bx bx-menu" id="menu-icon"></i>
-           </div>
+            <ul class="nav__contenedor">
+                <li class="nav__lista">
+                    <a href="#about">Sobre mí</a>
+                </li>
+                <li class="nav__lista">
+                    <a href="#proyectos">Mis proyectos</a>
+                </li>
+                <li class="nav__lista">
+                    <a href="#formacion">Formaciones</a>
+                </li>
+                <li class="nav__lista">
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li class="nav__lista">
+                    <a href="https://linkedin.com/in/tu-perfil" target="_blank" aria-label="Perfil de LinkedIn">
+                        <i class='bx bxl-linkedin-square social-icon linkedin'></i>
+                    </a>
+                    <a href="https://github.com/tu-perfil" target="_blank" aria-label="Perfil de GitHub">
+                        <i class='bx bxl-github social-icon github'></i>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <i class="bx bx-menu" id="menu-icon"></i>
+            </div>
         </nav>
     </header>
-      
+
     <!--Main-->
     <main>
         <div class="curriculum__contenedor">
-             <a href="./pdf/Curriculum Gil Matias.pdf" download="Curriculum Gil Matias"><img class="curriculum__icono" src="./images/icons/pdf.svg" alt="pdf curriculum Gil Matias"></a>
-             <span class="curriculum__mensaje">Descarga mi curriculum 😁</span>
-            </div>
+            <a href="./pdf/Curriculum Gil Matias.pdf" download="Curriculum Gil Matias">
+                <img class="curriculum__icono" src="./images/icons/pdf.svg" alt="Icono de PDF Curriculum Gil Matias">
+            </a>
+            <span class="curriculum__mensaje">Descarga mi curriculum 😁</span>
+        </div>
+
         <!--Sobre mi-->
         <section id="about" class="datos__contenedor">
-              <article class="datos__informacion">
-                    <h1 class="datos__titulo">Desarrollador <span>Frontend</span></h1>
-                    <p class="datos__descripcion">Mi nombre es Gil Matias Nahuel, construyo páginas web, me encanta la tecnología y programar sobre todo,
-                        actualmente me especializo en  Frontend, creando interfaces dinámicas para las distintas aplicaciones web, complemento mis estudios con mi carrera de tecnicatura en programación y cada día deseo aprender más.
-                    </p>
-                    <hr>
-                    <p class="datos__tecnologias">Tecnologías que utilizo:</p>
-                    <div class="datos__tecnologias--logos">
-                        <img src="./images/icons/html5.svg" alt="">
-                        <img src="./images/icons/css3.svg" alt="">
-                        <img src="./images/icons/javascript.svg" alt="">
-                        <img src="./images/icons/react.svg" alt="">
-                        <img src="./images/icons/mysql.svg" alt="">
-                        <img src="./images/icons/nodeJs.svg" alt="">
-                    </div>
-                </article>
-              <div class="perfil__contenedor">
-                <img src="./images/fotoPerfil.jpg" alt="Mi foto de perfil, hombre blanco, de pelo oscuro y ojos negros con un fondo de color blanco">
-              </div>
+            <article class="datos__informacion">
+                <h1 class="datos__titulo">Desarrollador <span>Frontend</span></h1>
+                <p class="datos__descripcion">Mi nombre es Gil Matias Nahuel, construyo páginas web, me encanta la tecnología y programar sobre todo,
+                    actualmente me especializo en Frontend, creando interfaces dinámicas para las distintas aplicaciones web, complemento mis estudios con mi carrera de tecnicatura en programación y cada día deseo aprender más.
+                </p>
+                <hr>
+                <p class="datos__tecnologias">Tecnologías que utilizo:</p>
+                <div class="datos__tecnologias--logos">
+                    <img src="./images/icons/html5.svg" alt="Logo HTML5">
+                    <img src="./images/icons/css3.svg" alt="Logo CSS3">
+                    <img src="./images/icons/javascript.svg" alt="Logo JavaScript">
+                    <img src="./images/icons/react.svg" alt="Logo React">
+                    <img src="./images/icons/mysql.svg" alt="Logo MySQL">
+                    <img src="./images/icons/nodeJs.svg" alt="Logo Node.js">
+                </div>
+            </article>
+            <div class="perfil__contenedor">
+                <img src="./images/fotoPerfil.jpg" alt="Mi foto de perfil, hombre blanco, de pelo oscuro y ojos negros con un fondo blanco">
+            </div>
         </section>
-        
-       
+
+        <!--Hobbies-->
+        <section id="hobbies__contenedor">
+            <div class="hobbies__card">
+                <span>Mis principales hobbies</span>
+                <a class="hobbies__card-link" href="#">
+                    <img src="./images/icons/football.svg" alt="Logo de fútbol">
+                </a>
+                <a class="hobbies__card-link" href="#">
+                    <img src="./images/icons/muaythai.svg" alt="Logo de Muay Thai">
+                </a>
+                <a class="hobbies__card-link" href="#">
+                    <img src="./images/icons/videojuegos.svg" alt="Logo de videojuegos">
+                </a>
+            </div>
+        </section>
 
         <!--Proyectos-->
         <section id="proyectos" class="proyectos__contenedor">
-               <h2 class="proyectos__titulo">Algunos de mis proyectos</h2>
-               <section class="proyectos__galeria">
+            <h2 class="proyectos__titulo">Algunos de mis proyectos</h2>
+            <section class="proyectos__galeria">
                 <article>
                     <div class="proyectos__card">
-                        <b></b>
-                        <img src="./images/guerham.png" alt="" class="proyectos__card-img"> <!-- Asegúrate de incluir una clase para estilizar si es necesario -->
+                        <img src="./images/guerham.png" alt="Captura de pantalla de Guerham" class="proyectos__card-img">
                         <div class="proyectos__contenido">
-                            
                             <ul class="proyectos__sci">
                                 <li>
-                                    <a href="https://guerham.netlify.app" target="_blank">
-                                       <img src="./images/icons/netlify.svg" alt="netlify icon">
+                                    <a href="https://guerham.netlify.app" target="_blank" aria-label="Visitar Guerham">
+                                        <img src="./images/icons/netlify.svg" alt="Icono de Netlify">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/MatiasNahuelGil/Guerham" target="_blank">
-                                      <i class='bx bxl-github'></i>
+                                    <a href="https://github.com/MatiasNahuelGil/Guerham" target="_blank" aria-label="Ver código en GitHub">
+                                        <i class='bx bxl-github'></i>
                                     </a>
                                 </li>
                             </ul>
@@ -96,19 +115,17 @@
                 </article>
                 <article>
                     <div class="proyectos__card">
-                        <b></b>
-                        <img src="./images/nodeflix.png" alt="" class="proyectos__card-img"> <!-- Asegúrate de incluir una clase para estilizar si es necesario -->
+                        <img src="./images/nodeflix.png" alt="Captura de pantalla de NodeFlix" class="proyectos__card-img">
                         <div class="proyectos__contenido">
-                            
                             <ul class="proyectos__sci">
                                 <li>
-                                    <a href="https://nodeflix.netlify.app" target="_blank">
-                                       <img src="./images/icons/netlify.svg" alt="netlify icon">
+                                    <a href="https://nodeflix.netlify.app" target="_blank" aria-label="Visitar NodeFlix">
+                                        <img src="./images/icons/netlify.svg" alt="Icono de Netlify">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/MatiasNahuelGil/NodeFlix" target="_blank">
-                                      <i class='bx bxl-github'></i>
+                                    <a href="https://github.com/MatiasNahuelGil/NodeFlix" target="_blank" aria-label="Ver código en GitHub">
+                                        <i class='bx bxl-github'></i>
                                     </a>
                                 </li>
                             </ul>
@@ -117,19 +134,17 @@
                 </article>
                 <article>
                     <div class="proyectos__card">
-                        <b></b>
-                        <img src="./images/encriptador.png" alt="" class="proyectos__card-img"> <!-- Asegúrate de incluir una clase para estilizar si es necesario -->
+                        <img src="./images/encriptador.png" alt="Captura de pantalla del Encriptador" class="proyectos__card-img">
                         <div class="proyectos__contenido">
-                            
                             <ul class="proyectos__sci">
                                 <li>
-                                    <a href="https://encriptadormatias.netlify.app/" target="_blank">
-                                       <img src="./images/icons/netlify.svg" alt="netlify icon">
+                                    <a href="https://encriptadormatias.netlify.app/" target="_blank" aria-label="Visitar Encriptador">
+                                        <img src="./images/icons/netlify.svg" alt="Icono de Netlify">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/MatiasNahuelGil/encriptador-actualizado" target="_blank">
-                                      <i class='bx bxl-github'></i>
+                                    <a href="https://github.com/MatiasNahuelGil/encriptador-actualizado" target="_blank" aria-label="Ver código en GitHub">
+                                        <i class='bx bxl-github'></i>
                                     </a>
                                 </li>
                             </ul>
@@ -138,96 +153,85 @@
                 </article>
                 <article>
                     <div class="proyectos__card">
-                        <b></b>
-                        <img src="./images/bakery.png" alt="" class="proyectos__card-img"> <!-- Asegúrate de incluir una clase para estilizar si es necesario -->
+                        <img src="./images/bakery.png" alt="Captura de pantalla de Bakery" class="proyectos__card-img">
                         <div class="proyectos__contenido">
-                            
                             <ul class="proyectos__sci">
                                 <li>
-                                    <a href="https://backeryapp.netlify.app" target="_blank">
-                                       <img src="./images/icons/netlify.svg" alt="netlify icon">
+                                    <a href="https://backeryapp.netlify.app" target="_blank" aria-label="Visitar Bakery">
+                                        <img src="./images/icons/netlify.svg" alt="Icono de Netlify">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/MatiasNahuelGil/bakery" target="_blank">
-                                      <i class='bx bxl-github'></i>
+                                    <a href="https://github.com/MatiasNahuelGil/bakery" target="_blank" aria-label="Ver código en GitHub">
+                                        <i class='bx bxl-github'></i>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </article>
-                
-               </section>
+            </section>
         </section>
 
-         <!--Formaciones-->
-         <section id="formacion"  class="formacion__contenedor">
-            <h2 class="formacion__titulo">
-                Formaciones académicas
-            </h2>
+        <!--Formaciones-->
+        <section id="formacion" class="formacion__contenedor">
+            <h2 class="formacion__titulo">Formaciones académicas</h2>
             <section class="formacion__contenedor--info">
-            <article>
-               <div class="tooltip-container">
-                  <span class="tooltip">En curso </span>
-                  <span class="text">Alura Latam 👆</span>
-                  <span>DESARROLLADOR FRONTEND </span>
-              </div>
-            </article>
-            <article>
-               <div class="tooltip-container">
-                  <span class="tooltip">Finalizado</span>
-                  <span class="text">Codo a Codo 👆</span>
-                  <span>DESARROLLADOR FULL STACK - NODEJS</span>
-              </div>
-           </article>
-           <article>
-            <div class="tooltip-container">
-                <span class="tooltip">En curso</span>
-                <span class="text">Universidad nacional de Quilmes👆</span>
-                <span>Tecnicatura en programación</span>
-              </div>
-           </article>     
-          </section>
-          
+                <article>
+                    <div class="tooltip-container">
+                        <span class="tooltip">En curso</span>
+                        <span class="text">Alura Latam 👆</span>
+                        <span>DESARROLLADOR FRONTEND</span>
+                    </div>
+                </article>
+                <article>
+                    <div class="tooltip-container">
+                        <span class="tooltip">Finalizado</span>
+                        <span class="text">Codo a Codo 👆</span>
+                        <span>DESARROLLADOR FULL STACK - NODEJS</span>
+                    </div>
+                </article>
+                <article>
+                    <div class="tooltip-container">
+                        <span class="tooltip">En curso</span>
+                        <span class="text">Universidad Nacional de Quilmes👆</span>
+                        <span>Tecnicatura en programación</span>
+                    </div>
+                </article>
+            </section>
         </section>
 
         <!--Contacto-->
         <section id="contacto" class="contacto__contenedor">
             <h2>Contáctate conmigo</h2>
-            
             <form class="contacto__form" data-formulario>
                 <ul class="contacto__lista__contenedor">
-                  <li class="contacto__lista">
-                    
-                    <input type="text" placeholder="Nombre" data-nombre  >
-                  </li>
-                 <li class="contacto__lista">
-                     
-                      <input type="text" placeholder="Asunto" data-asunto  >
-                 </li>
-                 <li class="contacto__lista">
-                     
-                     <input type="email" placeholder="Email" data-email >
-                 </li>
-                 <li class="contacto__lista">
-                    
-                    <textarea placeholder="Mensaje" maxlength="300" data-mensaje ></textarea>
-                 </li>
-                 <li class="contacto__lista">
-                    <button type="submit" data-boton-enviar>ENVIAR</button>
-                 </li>
+                    <li class="contacto__lista">
+                        <input type="text" placeholder="Nombre" data-nombre required>
+                    </li>
+                    <li class="contacto__lista">
+                        <input type="text" placeholder="Asunto" data-asunto required>
+                    </li>
+                    <li class="contacto__lista">
+                        <input type="email" placeholder="Email" data-email required>
+                    </li>
+                    <li class="contacto__lista">
+                        <textarea placeholder="Mensaje" maxlength="300" data-mensaje required></textarea>
+                    </li>
+                    <li class="contacto__lista">
+                        <button type="submit" data-boton-enviar>ENVIAR</button>
+                    </li>
                 </ul>
             </form>
         </section>
     </main>
 
     <!--Footer-->
-     <footer class="footer__contenedor">
+    <footer class="footer__contenedor">
         <section class="footer__copy">
-            <p>© desarrollado por Gil Matias </p>
+            <p>© desarrollado por Gil Matias</p>
         </section>
-     </footer>
+    </footer>
 
     <script src="./js/menu.js"></script>
     <script src="./js/formulario.js"></script>

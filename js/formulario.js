@@ -9,17 +9,17 @@ formulario.addEventListener('submit', function(event) {
 });
 
 function resetearFormulario() {
-    // Seleccionar los inputs dentro de la función
+    // Seleccionar los inputs dentro de la función y los limpiar para resetear el formulario luego de enviar los datos de los input
     let nombreInput = document.querySelector("[data-nombre]");
     let asuntoInput = document.querySelector("[data-asunto]");
     let emailInput = document.querySelector("[data-email]");
     let mensajeInput = document.querySelector("[data-mensaje]");
 
-    // Resetear los valores de los inputs
+    
     nombreInput.value = "";
     asuntoInput.value = "";
     emailInput.value = "";
-    mensajeInput.value = ""; // Corregido para asignar el valor
+    mensajeInput.value = ""; 
 }
 
 /* Función para validar el formulario con los inputs nombre, asunto, email y mensaje */
